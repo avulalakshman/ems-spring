@@ -7,7 +7,7 @@ import com.heraizen.ems.dto.EmployeeCountDTO;
 
 public interface EmployeeReports {
 		
-	public int getEmployeeCount(DEPT dept);
-	public int totalEmployees();
+	public long getEmployeeCount(DEPT dept);
+	public long totalEmployees();
 	public List<EmployeeCountDTO> employeeCountByDept();
 }

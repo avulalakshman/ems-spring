@@ -20,15 +20,13 @@ public class EmployeeReportsImpl implements EmployeeReports {
 	}
 
 	@Override
-	public int getEmployeeCount(DEPT dept) {
-		// TODO Auto-generated method stub
-		return 0;
+	public long getEmployeeCount(DEPT dept) {
+		return employeeDaoReports.getEmployeeCount(dept);
 	}
 
 	@Override
-	public int totalEmployees() {
-		// TODO Auto-generated method stub
-		return 0;
+	public long totalEmployees() {
+		return employeeDaoReports.totalEmployees();
 	}
 
 	@Override
